@@ -19,7 +19,7 @@ public class ContohKondisi {
 public class ContohPercabanganSwitch {
 
    public static void main(String args[]) {
-
+      //berikut ini adalah deklarasi variabel 
       char grade = 'A';
         
       switch(grade) {
@@ -60,3 +60,8 @@ class CetakAngka{
        }
    
    }
+
+/** 
+ * The HelloWorldApp class implements an application that
+ * simply displays "Hello World!" to the standard output.
+ */
