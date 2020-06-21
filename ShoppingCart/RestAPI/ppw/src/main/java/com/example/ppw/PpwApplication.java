@@ -1,3 +1,5 @@
+//add package
+package com.example.ppw;
 package com.example.ppw;
 //add library 
 import org.springframework.boot.SpringApplication;
