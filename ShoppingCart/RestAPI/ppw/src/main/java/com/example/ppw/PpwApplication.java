@@ -1,3 +1,6 @@
+/* This is the beginning of a
+multi-line comment
+this is the end */
 //add package
 package com.example.ppw;
 package com.example.ppw;
