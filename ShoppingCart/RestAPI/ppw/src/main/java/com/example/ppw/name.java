@@ -17,7 +17,7 @@
   String alamat;
   System.out.print("Masukan nama anda : " );
   nama=input.nextLine();
- 
-
+   System.out.print("Masukkan Alamat anda : " );
+  alamat=input.nextLine();
  }
  }
