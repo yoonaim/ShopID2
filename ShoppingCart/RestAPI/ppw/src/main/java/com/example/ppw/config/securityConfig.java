@@ -45,3 +45,11 @@ class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/*/.html",
                         "/*/.css",
                         "/*/.js")
+                .permitAll()
+                .antMatchers("/cart/**")
+                .permitAll()
+                .antMatchers("/api/auth/**")
+                .permitAll()
+                .antMatchers("/user/**")
+                .permitAll()
+                .antMatchers("/api/user/checkUsernameAvailability", "/api/user/checkEmailAvailability")
