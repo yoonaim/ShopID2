@@ -15,5 +15,9 @@
   Scanner input = new Scanner (System.in);
   String nama;
   String alamat;
+  System.out.print("Masukan nama anda : " );
+  nama=input.nextLine();
+ 
+
  }
  }
