@@ -8,10 +8,18 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootApplication
+@SpringBootTest
+
 public class PpwApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PpwApplication.class, args);
 	}
+	class PpwApplicationTests {
+
+	    @Test
+	    void contextLoads() {
+	    }
+}
 
 }
