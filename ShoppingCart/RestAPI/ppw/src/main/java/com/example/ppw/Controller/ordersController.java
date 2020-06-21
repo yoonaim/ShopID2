@@ -46,3 +46,17 @@ public class ContohPercabanganSwitch {
       System.out.println("Your grade is " + grade);
    }
 }
+
+//berikut ada class cetak angka
+class CetakAngka{
+   /*contoh membuat variabel dan scanner
+    contoh komentar*/
+       public static void main(String[] argumen){
+   
+           for(int i=0; i <= 10; i++){
+               System.out.print( i + " " );
+           }
+   
+       }
+   
+   }
