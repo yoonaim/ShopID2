@@ -53,3 +53,25 @@ class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/user/**")
                 .permitAll()
                 .antMatchers("/api/user/checkUsernameAvailability", "/api/user/checkEmailAvailability")
+                
+                .permitAll()
+                //cart/purchase
+                .antMatchers("/cart/purchase/*")
+                .permitAll()
+                //product/simpan1
+                .antMatchers("/product/simpan1")
+                .permitAll()
+                .antMatchers("/merchant/saveProduct")
+                .permitAll()
+                //seqUser
+                .antMatchers("seqUser/**")
+                .permitAll()
+                //shoppingcart/produk
+                .antMatchers("/shoppingcart/produk")
+                .permitAll()
+//               .anyRequest()
+//               .authenticated()
+        ;
+    }
+}
+
