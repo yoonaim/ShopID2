@@ -15,3 +15,16 @@ public class ContohKondisi {
         }
     }
 }
+
+public class ContohPercabanganSwitch {
+
+   public static void main(String args[]) {
+
+      char grade = 'A';
+        
+      switch(grade) {
+       
+      }
+      System.out.println("Your grade is " + grade);
+   }
+}
