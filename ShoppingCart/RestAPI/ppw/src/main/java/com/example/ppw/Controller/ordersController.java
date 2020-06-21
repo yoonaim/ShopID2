@@ -1,5 +1,7 @@
 @RestController
 @RequestMapping("/shoppingcart")
+
+//class for kondisi
 public class ContohKondisi {
 
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class ContohKondisi {
     }
 }
 
+//percabangan yang akan dibuat
 public class ContohPercabanganSwitch {
 
    public static void main(String args[]) {
@@ -43,6 +46,7 @@ public class ContohPercabanganSwitch {
          default :
             System.out.println("Invalid grade");
       }
+      
       System.out.println("Your grade is " + grade);
    }
 }
